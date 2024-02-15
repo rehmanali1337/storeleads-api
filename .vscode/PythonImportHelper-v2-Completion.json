@@ -1,0 +1,316 @@
+[
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypeAlias",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypeAlias",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "pprint",
+        "importPath": "pprint",
+        "description": "pprint",
+        "isExtraImport": true,
+        "detail": "pprint",
+        "documentation": {}
+    },
+    {
+        "label": "aiohttp",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "aiohttp",
+        "description": "aiohttp",
+        "detail": "aiohttp",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "setuptools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "APIClient",
+        "importPath": "store_leads.client",
+        "description": "store_leads.client",
+        "isExtraImport": true,
+        "detail": "store_leads.client",
+        "documentation": {}
+    },
+    {
+        "label": "Plan",
+        "kind": 6,
+        "importPath": "store_leads.models.app",
+        "description": "store_leads.models.app",
+        "peekOfCode": "class Plan:\n    def __init__(self, data: GeneralDict):\n        self.name: str = data.get(\"name\", \"\")\n        self.monthly_cost: str = data.get(\"monthly_cost\", \"\")\n        self.monthly_cost_cents: int = data.get(\"monthly_cost_cents\", 0)\nclass App:\n    def __init__(self, data: GeneralDict):\n        self.average_rating: str = data.get(\"average_rating\", \"\")\n        self.app_store_url: str = data.get(\"app_store_url\", \"\")\n        self.state: str = data.get(\"state\", \"\")",
+        "detail": "store_leads.models.app",
+        "documentation": {}
+    },
+    {
+        "label": "App",
+        "kind": 6,
+        "importPath": "store_leads.models.app",
+        "description": "store_leads.models.app",
+        "peekOfCode": "class App:\n    def __init__(self, data: GeneralDict):\n        self.average_rating: str = data.get(\"average_rating\", \"\")\n        self.app_store_url: str = data.get(\"app_store_url\", \"\")\n        self.state: str = data.get(\"state\", \"\")\n        self.description: str = data.get(\"description\", \"\")\n        self.icon_url: str = data.get(\"icon_url\", \"\")\n        self.name: str = data.get(\"name\", \"\")\n        self.token: str = data.get(\"token\", \"\")\n        self.platform: str = data.get(\"platform\", \"\")",
+        "detail": "store_leads.models.app",
+        "documentation": {}
+    },
+    {
+        "label": "AppList",
+        "kind": 6,
+        "importPath": "store_leads.models.app",
+        "description": "store_leads.models.app",
+        "peekOfCode": "class AppList:\n    def __init__(self, data: GeneralDict):\n        self.apps: List[App] = [App(app_data) for app_data in data.get(\"apps\", [])]\n# Example usage:\njson_data = {\n    \"apps\": [\n        {\n            \"average_rating\": \"5.0\",\n            \"app_store_url\": \"https://apps.shopify.com/flashyapp-marketing-automation\",\n            \"state\": \"Active\",",
+        "detail": "store_leads.models.app",
+        "documentation": {}
+    },
+    {
+        "label": "json_data",
+        "kind": 5,
+        "importPath": "store_leads.models.app",
+        "description": "store_leads.models.app",
+        "peekOfCode": "json_data = {\n    \"apps\": [\n        {\n            \"average_rating\": \"5.0\",\n            \"app_store_url\": \"https://apps.shopify.com/flashyapp-marketing-automation\",\n            \"state\": \"Active\",\n            \"description\": \"All-In-One Marketing Automation Platform for eCommerce\",\n            \"icon_url\": \"https://cdn.shopify.com/app-store/listing_images/372dbfce35571e26aba38e41b47c5a0c/icon/CJXqis70lu8CEAE=.png?height=84&width=84\",\n            \"name\": \"Flashy ‑ Marketing Automation\",\n            \"token\": \"flashyapp-marketing-automation\",",
+        "detail": "store_leads.models.app",
+        "documentation": {}
+    },
+    {
+        "label": "ContactInfo",
+        "kind": 6,
+        "importPath": "store_leads.models.domain",
+        "description": "store_leads.models.domain",
+        "peekOfCode": "class ContactInfo:\n    def __init__(self, data: GeneralDict):\n        self.source: str = data.get(\"source\", \"\")\n        self.type: str = data.get(\"type\", \"\")\n        self.value: Union[str, int] = data.get(\"value\", \"\")\n        self.description: str = data.get(\"description\", \"\")\n        self.followers: int = data.get(\"followers\", 0)\n        self.followers_90d: int = data.get(\"followers_90d\", 0)\n        self.posts: int = data.get(\"posts\", 0)\nclass Technology:",
+        "detail": "store_leads.models.domain",
+        "documentation": {}
+    },
+    {
+        "label": "Technology",
+        "kind": 6,
+        "importPath": "store_leads.models.domain",
+        "description": "store_leads.models.domain",
+        "peekOfCode": "class Technology:\n    def __init__(self, data: GeneralDict):\n        self.installed_at: str = data.get(\"installed_at\", \"\")\n        self.name: str = data.get(\"name\", \"\")\n        self.description: str = data.get(\"description\", \"\")\n        self.vendor_url: str = data.get(\"vendor_url\", \"\")\n        self.icon_url: str = data.get(\"icon_url\", \"\")\n        self.installs: int = data.get(\"installs\", 0)\nclass DomainInfo:\n    def __init__(self, data: GeneralDict):",
+        "detail": "store_leads.models.domain",
+        "documentation": {}
+    },
+    {
+        "label": "DomainInfo",
+        "kind": 6,
+        "importPath": "store_leads.models.domain",
+        "description": "store_leads.models.domain",
+        "peekOfCode": "class DomainInfo:\n    def __init__(self, data: GeneralDict):\n        self.cluster_best_ranked: str = data.get(\"cluster_best_ranked\", \"\")\n        self.city: str = data.get(\"city\", \"\")\n        self.last_updated_at: str = data.get(\"last_updated_at\", \"\")\n        self.subregion: str = data.get(\"subregion\", \"\")\n        self.contact_page: str = data.get(\"contact_page\", \"\")\n        self.country_code: str = data.get(\"country_code\", \"\")\n        self.title: str = data.get(\"title\", \"\")\n        self.administrative_area_level_1: str = data.get(",
+        "detail": "store_leads.models.domain",
+        "documentation": {}
+    },
+    {
+        "label": "__major__",
+        "kind": 5,
+        "importPath": "store_leads._metadata",
+        "description": "store_leads._metadata",
+        "peekOfCode": "__major__ = 0\n__minor__ = 1\n__patch__ = 0\n__version__ = f\"{__minor__}.{__minor__}.{__patch__}\"\n__all__ = [\n    \"__version__\",\n]",
+        "detail": "store_leads._metadata",
+        "documentation": {}
+    },
+    {
+        "label": "__minor__",
+        "kind": 5,
+        "importPath": "store_leads._metadata",
+        "description": "store_leads._metadata",
+        "peekOfCode": "__minor__ = 1\n__patch__ = 0\n__version__ = f\"{__minor__}.{__minor__}.{__patch__}\"\n__all__ = [\n    \"__version__\",\n]",
+        "detail": "store_leads._metadata",
+        "documentation": {}
+    },
+    {
+        "label": "__patch__",
+        "kind": 5,
+        "importPath": "store_leads._metadata",
+        "description": "store_leads._metadata",
+        "peekOfCode": "__patch__ = 0\n__version__ = f\"{__minor__}.{__minor__}.{__patch__}\"\n__all__ = [\n    \"__version__\",\n]",
+        "detail": "store_leads._metadata",
+        "documentation": {}
+    },
+    {
+        "label": "__version__",
+        "kind": 5,
+        "importPath": "store_leads._metadata",
+        "description": "store_leads._metadata",
+        "peekOfCode": "__version__ = f\"{__minor__}.{__minor__}.{__patch__}\"\n__all__ = [\n    \"__version__\",\n]",
+        "detail": "store_leads._metadata",
+        "documentation": {}
+    },
+    {
+        "label": "__all__",
+        "kind": 5,
+        "importPath": "store_leads._metadata",
+        "description": "store_leads._metadata",
+        "peekOfCode": "__all__ = [\n    \"__version__\",\n]",
+        "detail": "store_leads._metadata",
+        "documentation": {}
+    },
+    {
+        "label": "APIClient",
+        "kind": 6,
+        "importPath": "store_leads.client",
+        "description": "store_leads.client",
+        "peekOfCode": "class APIClient:\n    def __init__(self, api_key: str, api_version: int = 1) -> None:\n        self.api_key = api_key\n        self.api_version = api_version\n        self._base_url = f\"https://storeleads.app/json/api/v{self.api_version}/all\"\n        self._session = aiohttp.ClientSession()\n    def get_headers(self, headers: Optional[GeneralDict] = None) -> GeneralDict:\n        if not headers:\n            headers = {\"Authorization\": f\"Bearer {self.api_key}\"}\n        return headers",
+        "detail": "store_leads.client",
+        "documentation": {}
+    },
+    {
+        "label": "StoreLeadsAPIError",
+        "kind": 6,
+        "importPath": "store_leads.exceptions",
+        "description": "store_leads.exceptions",
+        "peekOfCode": "class StoreLeadsAPIError(Exception):\n    \"\"\"Base exception from Store Leads API\"\"\"\nclass NotFound(StoreLeadsAPIError):\n    \"\"\"Something not found from the API\"\"\"",
+        "detail": "store_leads.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "NotFound",
+        "kind": 6,
+        "importPath": "store_leads.exceptions",
+        "description": "store_leads.exceptions",
+        "peekOfCode": "class NotFound(StoreLeadsAPIError):\n    \"\"\"Something not found from the API\"\"\"",
+        "detail": "store_leads.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "url",
+        "kind": 5,
+        "importPath": "req",
+        "description": "req",
+        "peekOfCode": "url = \"https://api.apilayer.com/short_url/hash\"\npayload = \"https://google.com\".encode(\"utf-8\")\nheaders = {\"apikey\": \"zkI8JiZxynxpQ6aV2ItB87s0skNEeDb1\"}\nprint(payload)\nresponse = requests.request(\"POST\", url, headers=headers, data=payload)\nstatus_code = response.status_code\nresult = response.text\nprint(result)",
+        "detail": "req",
+        "documentation": {}
+    },
+    {
+        "label": "payload",
+        "kind": 5,
+        "importPath": "req",
+        "description": "req",
+        "peekOfCode": "payload = \"https://google.com\".encode(\"utf-8\")\nheaders = {\"apikey\": \"zkI8JiZxynxpQ6aV2ItB87s0skNEeDb1\"}\nprint(payload)\nresponse = requests.request(\"POST\", url, headers=headers, data=payload)\nstatus_code = response.status_code\nresult = response.text\nprint(result)",
+        "detail": "req",
+        "documentation": {}
+    },
+    {
+        "label": "headers",
+        "kind": 5,
+        "importPath": "req",
+        "description": "req",
+        "peekOfCode": "headers = {\"apikey\": \"zkI8JiZxynxpQ6aV2ItB87s0skNEeDb1\"}\nprint(payload)\nresponse = requests.request(\"POST\", url, headers=headers, data=payload)\nstatus_code = response.status_code\nresult = response.text\nprint(result)",
+        "detail": "req",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "req",
+        "description": "req",
+        "peekOfCode": "response = requests.request(\"POST\", url, headers=headers, data=payload)\nstatus_code = response.status_code\nresult = response.text\nprint(result)",
+        "detail": "req",
+        "documentation": {}
+    },
+    {
+        "label": "status_code",
+        "kind": 5,
+        "importPath": "req",
+        "description": "req",
+        "peekOfCode": "status_code = response.status_code\nresult = response.text\nprint(result)",
+        "detail": "req",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "req",
+        "description": "req",
+        "peekOfCode": "result = response.text\nprint(result)",
+        "detail": "req",
+        "documentation": {}
+    },
+    {
+        "label": "required_packages",
+        "kind": 5,
+        "importPath": "setup",
+        "description": "setup",
+        "peekOfCode": "required_packages = [\n    \"aiohttp\",\n]\nsetuptools.setup(\n    name=\"api_layer_shortner\",\n    version=\"0.1.0\",\n    author=\"Rehman Ali\",\n    author_email=\"rehmanali.9442289@gmail.com\",\n    description=\"Python wrapper for apilayer.com shortner service\",\n    url=\"\",",
+        "detail": "setup",
+        "documentation": {}
+    }
+]
